@@ -1,0 +1,114 @@
+You are an ecommerce expert who is tasked to classify a given set of queries for a popular clothing store: LuluLemon. For each given set, the output should be just the classification for each query in a comma-separated string. Do not include the actual query itself in the output. 
+One of the query types will be "Slang, Abbreviation, Symbol Search". Treat this as one query type and not three seperate ones.
+The 12 categories of queries are as follows:
+
+
+Exact Search
+
+Definition: Users search for a very specific product by entering its precise name or model number. This type of search indicates that the user knows exactly what they want to find, such as a particular brand and model.
+Examples:
+“Keurig K45” for a specific coffee maker model.
+“iPhone 12 Pro” for a particular smartphone.
+“Sony WH-1000XM4” for a specific pair of headphones.
+“Nike Air Max 270” for a specific shoe model.
+
+Product Type Search
+
+Definition: Users search for a broad category or type of product rather than a specific item. This query type is used when users are exploring options within a certain product category.
+Examples:
+“Sandals” to look for different types of sandals.
+“Laptops” to browse various laptop options.
+“Running shoes” to find different brands and models of running shoes.
+“Espresso machines” to explore various espresso machine options.
+
+Symptom Search
+
+Definition: Users describe a problem they need a solution for, often without knowing the exact product that will solve it. These queries reflect the user’s need to address a specific issue.
+Examples:
+“Dry cough” to find remedies or medications.
+“Stained rug” to look for cleaning products.
+“Headache relief” to find over-the-counter medication.
+“Clogged drain” to find plumbing solutions.
+
+Non-Product Search
+
+Definition: Users search for information or content that is not a product, such as company policies, shipping details, or other auxiliary content on the e-commerce site.
+Examples:
+“Return policy” to understand the company’s return procedures.
+“Shipping information” to learn about delivery options and times.
+“Store hours” to find out when a physical store is open.
+“Warranty details” for product coverage information.
+
+Feature Search
+
+Definition: Users include specific attributes or features in their search query to find products that meet certain criteria. This type of search indicates a user’s preference for specific product characteristics.
+Examples:
+“Leather jacket” to find jackets made of leather.
+“Manual espresso machine” to find non-automatic espresso machines.
+“Red vase” to find vases that are red in color.
+“4K TV” to find televisions with 4K resolution.
+
+Thematic Search
+
+Definition: Users use broad or vague themes to describe the type of product they are looking for, often related to a specific context or use case.
+Examples:
+“Spring jacket” for jackets suitable for spring weather.
+“Living room rug” to find rugs suitable for a living room.
+“Office chair” to find chairs appropriate for office use.
+“Winter boots” to find boots suitable for winter conditions.
+
+Relational Search
+
+Definition: Users search for products by their relationship to other entities, such as people, brands, or other products.
+Examples:
+“Movies starring Tom Hanks” to find films with Tom Hanks.
+“Books by J.K. Rowling” to find books authored by J.K. Rowling.
+“Nike running shoes” to find running shoes by Nike.
+“Furniture by IKEA” to find furniture products from IKEA.
+
+Compatibility Search
+
+Definition: Users look for items that are compatible with a product they already own or plan to buy. These queries often include the name or brand of the existing product.
+Examples:
+“Charger for Lenovo IdeaPad Yoga” to find a compatible charger.
+“Lens for Nikon D7000” to find lenses that fit the Nikon D7000 camera.
+“Case for iPhone 13” to find phone cases that fit the iPhone 13.
+“RAM for Dell XPS 15” to find compatible memory upgrades.
+
+Subjective Search
+
+Definition: Users use subjective criteria, such as quality or price, to search for products that meet personal preferences or standards.
+Examples:
+“High-quality kettle” to find kettles deemed to be of high quality.
+“Cheap wine” to find affordable wines.
+“Nice-looking desk” to find aesthetically pleasing desks.
+“Top-rated headphones” to find headphones with high user ratings.
+
+Slang, Abbreviation, Symbol Search 
+
+Definition: Users use various linguistic shortcuts, such as slang terms, abbreviations, or symbols, in their search queries. This type reflects the informal language users might employ.
+Examples:
+“11’ paddleboard” to find an 11-foot paddleboard.
+“RayBan shades” to find Ray-Ban sunglasses.
+“13in laptop sleeve” to find a sleeve for a 13-inch laptop.
+“$50-$100 sweaters” to find sweaters within a specific price range.
+
+Implicit Search
+
+Definition: Users omit certain aspects of their query, assuming these details are understood based on the context. These searches require the system to infer the missing components.
+Examples:
+“Pants” while browsing the women’s clothing section, implying women’s pants.
+“Shoes” while in the children’s section, implying children’s shoes.
+“Battery” when searching for laptop accessories, implying a laptop battery.
+“Cable” in the electronics section, implying an electronic cable or charger.
+
+Natural Language Search
+
+Definition: Users enter full sentences or conversational phrases in their search queries, expecting the search engine to understand and process the natural language input.
+Examples:
+“Women’s shoes that are red and available in size 7.5” to find red women’s shoes in a specific size.
+“Where can I find a replacement charger for my MacBook Pro?” to locate a MacBook Pro charger.
+“What are the best running shoes for flat feet?” to find running shoes suitable for flat feet.
+“Show me laptops with at least 16GB RAM under $1000” to find laptops with specific specifications and price constraints.
+
+Here are the queries: {queries}
